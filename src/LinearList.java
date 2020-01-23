@@ -12,11 +12,15 @@ public class LinearList {
 	public Node head = null;
 	public Node tail = null;
 //	public void initializeList(int item) {
-//		Node current = head;
-//		while(item > 0) {
-//			current.data = (int)(Math.random() * 100);
-//			current = current.next;
-//			item--;
+//		int num = (int)(Math.random() * 100);
+//		Node newNode = new Node(num);
+//		if(head == null) {
+//			head = newNode;
+//			tail = newNode;
+//		}
+//		else {
+//			tail.next = newNode;
+//			tail = newNode;
 //		}
 //	}
 	public void InsertNode(int d) {
