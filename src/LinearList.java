@@ -11,18 +11,6 @@ public class LinearList {
 	}
 	public Node head = null;
 	public Node tail = null;
-//	public void initializeList(int item) {
-//		int num = (int)(Math.random() * 100);
-//		Node newNode = new Node(num);
-//		if(head == null) {
-//			head = newNode;
-//			tail = newNode;
-//		}
-//		else {
-//			tail.next = newNode;
-//			tail = newNode;
-//		}
-//	}
 	public void InsertNode(int d) {
 		//create a new Node
 		Node newNode = new Node(d);
@@ -81,7 +69,6 @@ public class LinearList {
 	public static void main(String[] args) {
 		LinearList slist = new LinearList();
 		int num; Scanner kybd = new Scanner(System.in);
-//		slist.initializeList(5);
 		while(true) {
 			int choice = Integer.parseInt(JOptionPane.showInputDialog("\n\tMake a Selection from the following: "
 					+ "\n\t\t1 to Insert into the List"
